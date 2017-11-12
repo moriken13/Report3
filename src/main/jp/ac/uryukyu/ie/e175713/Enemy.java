@@ -10,10 +10,6 @@ package jp.ac.uryukyu.ie.e175713;
  */
 public class Enemy extends LivingThing{
 
-
-
-
-
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
      * @param name モンスター名
@@ -22,12 +18,7 @@ public class Enemy extends LivingThing{
      */
     public Enemy (String name, int maximumHP, int attack) {
         super(name, maximumHP, attack);
-
-
-
     }
-
-
 
     /**
      * 自身へ攻撃されたときのダメージ処理をするメソッド。
